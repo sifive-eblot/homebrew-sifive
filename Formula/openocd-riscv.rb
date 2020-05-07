@@ -4,16 +4,16 @@ class OpenocdRiscv < Formula
 
   head do
     url "https://github.com/riscv/riscv-openocd.git", :branch => "riscv"
-
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
-    depends_on "pkg-config" => :build
-    depends_on "texinfo" => :build
-
-    depends_on "libftdi"
-    depends_on "libusb"
   end
+
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
+  depends_on "pkg-config" => :build
+  depends_on "texinfo" => :build
+
+  depends_on "libftdi"
+  depends_on "libusb"
 
   keg_only "conflict with upstream openocd"
 

@@ -15,7 +15,13 @@ Get this tap:
 
 Build the toolchain:
 
-    $ brew install openocd-riscv xc3sprog
+    $ brew install xc3sprog
+    $ brew install --HEAD openocd-riscv
+
+If there is no other openocd installation on the host, it is possible to
+install `openocd-riscv` as the default openocd installation using
+
+    $ brew link --force openocd-riscv
 
 ## RISC-V toolchain
 

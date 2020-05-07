@@ -4,11 +4,6 @@ class Xc3sprog < Formula
 
   url "https://svn.code.sf.net/p/xc3sprog/code/trunk", :revision => "795"
   version "r795"
-  bottle do
-    root_url "https://homebrew.bintray.com/bottles-sifive"
-    cellar :any
-    sha256 "2159c287587a78c733fedc6ac138b27f26e5cccecc1abe2c063fe7cbe142c1fa" => :mojave
-  end
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
