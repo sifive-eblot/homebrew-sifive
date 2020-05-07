@@ -26,12 +26,13 @@ install `openocd-riscv` as the default openocd installation using
 ## RISC-V toolchain
 
 [homebrew-riscv](https://github.com/riscv/homebrew-riscv) provides the RISCV
-toolchain as Hombrew formula.
+toolchain as Homebrew formulas.
 
-### Note about 32-bit architecture
+### Note about the 32-bit architecture
 
-If you need to support RISC-V 32-bit architecture, do no install `riscv-tools`
-package, as it wraps the toolchain installation for 64-bit architecture only.
+If you need to build for RISC-V 32-bit architecture, do no install `riscv-tools`
+package, as it wraps the toolchain installation for the 64-bit architecture
+only.
 
 Install the toolchain as:
 
