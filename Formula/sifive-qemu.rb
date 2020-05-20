@@ -45,7 +45,7 @@ class SifiveQemu < Formula
     args << "--smbd=#{HOMEBREW_PREFIX}/sbin/samba-dot-org-smbd"
 
     system "./configure", *args
-    system "make", "V=1", "install"
+    system "make", "V=1"
+    system "make", "-j1", "install"
   end
 end
-
