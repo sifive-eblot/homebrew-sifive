@@ -1,7 +1,7 @@
 class SifiveQemu < Formula
   desc "Emulator for SiFive RISC-V"
   homepage "https://www.qemu.org/"
-  url "git://git.qemu.org/qemu.git", :tag => "v4.1.0"
+  url "git://git.qemu.org/qemu.git", :tag => "v4.2.0"
 
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
