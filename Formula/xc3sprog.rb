@@ -7,7 +7,8 @@ class Xc3sprog < Formula
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
-
+  depends_on "pkgconfig" => :build
+  
   depends_on "libftdi"
   depends_on "libusb"
   depends_on "libusb-compat"
